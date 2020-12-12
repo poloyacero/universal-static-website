@@ -8,6 +8,15 @@ body {
   color: #5a5a5a;
 }
 
+@font-face {
+  font-family: LemonMilk;
+  src: url('../font/LEMONMILK-Regular.otf');
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: LemonMilk;
+}
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -344,33 +353,33 @@ footer p {
 }
 
 .carousel-caption h2 {
-  font-size: 160px;
+  font-size: 147px;
   text-transform: uppercase;
 }
 
 .slider1 .carousel-caption-description {
   left: 14%;
-  bottom: 23%;
+  bottom: 22%;
 }
 
 .slider1 .carousel-caption-description h3 {
-  font-size: 45px;
+  font-size: 40px;
 }
 
 .slider2 .carousel-caption-description {
-  bottom: 23%;
+  bottom: 22%;
   right: 11%;
 }
 
 .slider2 .carousel-caption-description h3 {
-  font-size: 45px;
+  font-size: 40px;
 }
 
 .slider3 .carousel-caption-description {
   left: 14%;
-  bottom: 23%;
+  bottom: 22%;
 }
 
 .slider3 .carousel-caption-description h3 {
-  font-size: 45px;
+  font-size: 40px;
 }
