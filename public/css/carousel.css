@@ -5,18 +5,34 @@
 body {
   /*padding-top: 3rem;
   padding-bottom: 3rem;*/
+  font-family: Poppins;
   color: #5a5a5a;
+  font-size: 18px;
+  line-height: 34px;
 }
 
 @font-face {
   font-family: LemonMilk;
-  src: url('../font/LEMONMILK-Regular.otf');
+  src: url('../font/lemonmilk/LEMONMILK-Regular.otf');
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url('../font/roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url('../font/poppins/Poppins-Regular.otf');
 }
 
 h1, h2, h3, h4, h5 {
   font-family: LemonMilk;
 }
 
+a, p, span {
+  font-family: Roboto;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -115,6 +131,15 @@ h1, h2, h3, h4, h5 {
 
 /* CUSTOM CSS
 -------------------------------------------------- */
+
+.navbar-dark .navbar-nav .nav-link {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+  text-transform: initial;
+}
+
 .carousel-inner .carousel-item > img {
   top: 0px;
 }
@@ -162,10 +187,14 @@ h1, h2, h3, h4, h5 {
 
 .lead {
   text-align: justify;
+  text-align: justify;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 .about-us-image {
-  height: 455px;
+  height: 490px;
   float: right;
 }
 
@@ -217,7 +246,7 @@ h1, h2, h3, h4, h5 {
 
 .portfolio h4 {
   position: absolute;
-  font-size: 62px;
+  font-size: 40px;
   color: #ffffff;
   text-transform: uppercase;
   bottom: 34px;
@@ -280,6 +309,8 @@ h1, h2, h3, h4, h5 {
   text-align: center;
   padding: 5px 0px;
   color: #ffffff;
+  font-family: 'Poppins';
+  font-size: 15px;
 }
 
 .contact-icon img {
@@ -314,10 +345,13 @@ footer {
   background-color: #000000;
   padding: 20px 0px;
   color: #ffffff;
+  text-align: center;
 }
 
 footer p {
   margin: 0px;
+  font-family: 'Poppins';
+  font-size: 13px;
 }
 
 .modal-header {
@@ -333,20 +367,23 @@ footer p {
 }
 
 .carousel-caption {
-  font-size: 160px;
   text-transform: uppercase;
-  bottom: 27%;
+  bottom: 39%;
   left: 13%;
 }
 
 .carousel-caption h2 {
-  font-size: 147px;
+  font-size: 80px;
   text-transform: uppercase;
+}
+
+.slider2 .carousel-caption {
+  right: 10%;
 }
 
 .slider1 .carousel-caption-description {
   left: 14%;
-  bottom: 22%;
+  bottom: 31%;
 }
 
 .slider1 .carousel-caption-description h3 {
@@ -354,7 +391,7 @@ footer p {
 }
 
 .slider2 .carousel-caption-description {
-  bottom: 22%;
+  bottom: 31%;
   right: 11%;
 }
 
@@ -364,7 +401,7 @@ footer p {
 
 .slider3 .carousel-caption-description {
   left: 14%;
-  bottom: 22%;
+  bottom: 31%;
 }
 
 .slider3 .carousel-caption-description h3 {
@@ -396,8 +433,10 @@ footer p {
 
 .topbar p {
   margin: 0;
-  padding: 13px;
-  font-weight: 400;
+  padding: 10px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 14px;
 }
 
 .breadcrumb {
@@ -411,8 +450,9 @@ footer p {
   color: #ffffff;
 }
 
-.breadcrumb h3 {
-  font-size: 54px;
+.breadcrumb h2 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 45px;
   color: #ffffff;
-  font-family: inherit;
 }
