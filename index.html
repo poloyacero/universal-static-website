@@ -32,9 +32,23 @@
   <body>
     
 <header>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <div class="topbar">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <p>Welcome to Universal Consulting</p>
+        </div>
+        <!--<div class="col-md-4 float-right">
+          <p><script>document.write( new Date().toLocaleTimeString('en-AE', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }) )</script></p>
+        </div>-->
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <a class="navbar-brand" href="#"><h1><img src="./public/img/logo.png"></h1></a>
+  </div>
+  <nav class="navbar navbar-expand-md navbar-dark bg-red">
     <div class="container container-fluid">
-      <a class="navbar-brand" href="#"><h1>Universal<br/><span>Consultancy FZC</span></h1></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -44,18 +58,24 @@
             <a class="nav-link scroll-to" href="#" data-scroll="">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link scroll-to" href="#" data-scroll="about-us">About</a>
+            <a class="nav-link scroll-to" href="#" data-scroll="about-us">About Theming</a>
           </li>
           <li class="nav-item">
             <a class="nav-link scroll-to" href="#" data-scroll="portfolios">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link scroll-to" href="#" data-scroll="contact-us">Contact</a>
+            <a class="nav-link scroll-to" href="#" data-scroll="contact-us">Contact Us</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+  <div class="breadcrumb">
+    <div class="container">
+        <a href="#">Home</a>
+        <h3>Theming</h3>
+    </div>
+  </div>
 </header>
 
 <main>
@@ -119,10 +139,11 @@
                 <img class="about-us-image" src="./public/img/bg-about.png" />
             </div>
             <div class="col-md-7">
-                <h2 class="featurette-heading">About us</h2>
-                <p class="lead"><span>UNIVERSAL CONSULTANCY</span> is the first most exciting and professional theme building company in UAE. We specialize in a variety of art applications like designing and fabricating and entire environment with a focused theme. We can create the wildest thought to reality in 3D displays, no matter how tough it looks or how big it is.</p>
-                <p class="lead"><span>UNIVERSAL CONSULTANCY</span> serves a wide range of clients including theme parks, hotels, residences, restaurants & resorts, worship areas, event companies, architectural firms and corporations, museums, malls and retail stores, advertising, public relations and marketing agencies.</p>
+                <h2 class="featurette-heading">About Theming</h2>
+                <p class="lead"><span>UNIVERSAL CONSULTANCY THEMING</span> is the first most exciting and professional theme building company in UAE. We specialize in a variety of art applications like designing and fabricating an entire environment with a focused theme. We can create the wildest thought to reality in 3D displays, no matter how tough it looks or how big it is.</p>
+                <p class="lead"><span>UNIVERSAL CONSULTANCY THEMING</span> serves a wide range of clients including theme parks, hotels, residences, restaurants & resorts, worship areas, event companies, architectural firms and corporations, museums, malls and retail stores, advertising, public relations and marketing agencies.</p>
                 <p class="lead">We work with organizations of every size and in all parts of the country and world.</p>
+                <a href="http://sam-ucf.icoregeneration.in/about-us/" target="_blank" class="more">More About Us</a>
             </div>
         </div>
 
@@ -162,23 +183,29 @@
         <h2>Contact us</h2>
       </div>
       <div class="row">
-        <div class="col-md-4 phone">
+        <div class="col-md-3 phone">
           <div class="contact-icon phone-icon">
-            <img src="./public/img/phone.png" />
+            <img src="./public/img/phone-icon.png" />
           </div>
-          <a href="tel:+971 123 4567">+971 123 4567</a>
+          <a href="tel:+45 2090 1011">+45 2090 1011</a>
         </div>
-        <div class="col-md-4 email">
+        <div class="col-md-3 email">
           <div class="contact-icon email-icon">
-            <img src="./public/img/email.png" />
+            <img src="./public/img/email-icon.png" />
           </div>
-          <a href="mailto:contact@ucfglobal.com">Email</a>
+          <a href="mailto:jens@ucfglobal.com">jens@ucfglobal.com</a>
         </div>
-        <div class="col-md-4 map">
-          <div class="contact-icon map-icon">
-            <img src="./public/img/map.png" />
+        <div class="col-md-3 web">
+          <div class="contact-icon web-icon">
+            <img src="./public/img/globe-icon.png" />
           </div>
-          <a href="">Location</a>
+          <a href="www.ucfglobal.com/theming">www.ucfglobal.com/theming</a>
+        </div>
+        <div class="col-md-3 map">
+          <div class="contact-icon map-icon">
+            <img src="./public/img/map-icon.png" />
+          </div>
+          <a href="">PO Box 112944, Dubai - UAE</a>
         </div>
       </div>
     </div>
