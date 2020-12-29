@@ -39,8 +39,9 @@ a, p, span {
 
 /* Carousel base class */
 .carousel {
-  margin-bottom: 4rem;
+  margin-bottom: 0px
 }
+
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   bottom: 3rem;
@@ -77,6 +78,10 @@ a, p, span {
   margin-left: .75rem;
 }
 
+.marketing .featurette {
+  margin-left: initial;
+  margin-right: initial;
+}
 
 /* Featurettes
 ------------------------- */
@@ -136,7 +141,7 @@ a, p, span {
   font-family: Poppins;
   font-weight: 600;
   font-size: 16px;
-  color: #ffffff;
+  color: #fcc210 !important;
   text-transform: initial;
 }
 
@@ -153,7 +158,7 @@ a, p, span {
 }
 
 .navbar-brand img {
-  width: 360px;
+  width: 316px;
   margin: 15px 25px;
 }
 
@@ -187,15 +192,15 @@ a, p, span {
 
 .lead {
   text-align: justify;
-  text-align: justify;
   font-family: Roboto;
   font-weight: 400;
   font-size: 18px;
 }
 
 .about-us-image {
-  height: 490px;
+  height: 385px;
   float: right;
+  margin-top: 10px;
 }
 
 .featurette span {
@@ -209,11 +214,11 @@ a, p, span {
   font-weight: bold !important;
   font-size: 70px;
   margin-bottom: 30px;
-  margin-top: 0;
+  margin-top: 30px;
 }
 
 .marketings {
-  padding: 100px 0px;
+  padding: 40px 0px 70px 0px;
 }
 
 .portfolios {
@@ -424,13 +429,17 @@ footer p {
   color: #ffffff;
 }
 
-.bg-red {
-    background-color: #c1282a !important;
+.bg-dark {
+  background-color: #000000 !important;
+}
+
+.bg-yellow {
+  background-color: #fcc210 !important;
 }
 
 .topbar {
   color: #ffffff;
-  background: #383838;
+  background: #fcc210;
 }
 
 .topbar p {
