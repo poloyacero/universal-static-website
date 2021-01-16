@@ -467,3 +467,54 @@ footer p {
   font-size: 45px;
   color: #ffffff;
 }
+
+.email .modal {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.email .modal-header {
+  border: none;
+}
+
+.email .modal-title {
+  text-align: center;
+  color: #fcc210;
+  font-size: 40px;
+}
+
+.email .modal-content {
+  background: #000000;
+}
+
+.email .btn {
+  margin: auto;
+  display: block;
+  background-color: #fcc210;
+  border: none;
+  color: #000000;
+  padding: 20px 80px;
+}
+
+.email .btn:focus {
+  border: none;
+  box-shadow: none;
+}
+
+.email .close {
+  color: #ffffff;
+}
+
+#emailHoneyPot {
+  display: none;
+}
+
+.error {
+  color: #ff0000;
+  font-size: 14px;
+}
+
+.success {
+  color: green;
+  font-size: 15px;
+  text-align: center;
+}

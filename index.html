@@ -62,7 +62,7 @@
             <a class="nav-link scroll-to" href="#" data-scroll="portfolios">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link scroll-to" href="#" data-scroll="contact-us">Contact</a>
+            <a class="nav-link contact-us-link" href="#" data-scroll="contact-us">Contact</a>
           </li>
         </ul>
       </div>
@@ -195,7 +195,7 @@
           <div class="contact-icon email-icon">
             <img src="./public/img/email-icon.png" />
           </div>
-          <a href="mailto:jens@ucfglobal.com">nolimitsolutions@dk</a>
+          <a href="mailto:jens@ucfglobal.com" class="emailto">nolimitsolutions@dk</a>
         </div>
         <div class="col-md-4 web">
           <div class="contact-icon web-icon">
@@ -366,6 +366,63 @@
     </div>
   </div>
 
+  <!--
+
+    <div class="modal fade" id="modal-gallery" role="dialog">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" type="button" data-dismiss="modal">×</button>
+                    <h3 class="modal-title"></h3>
+                </div>
+                <div class="modal-body">
+
+  -->
+
+  <div class="email">
+    <div class="modal fade" id="modal-email" role="dialog">
+      <div class="modal-dialog modal-md modal-dialog-centered">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <button class="close" type="button" data-dismiss="modal">×</button>
+                  <h3 class="modal-title">Contact Us</h3>
+              </div>
+              <div class="modal-body">
+                <div class="container-fluid">
+                  <form class="needs-validation" name="emailForm" id="emailForm" novalidate>
+
+                      <div class="mb-3">
+                        <input type="text" name="name" class="form-control" id="emailFullName" placeholder="Full Name" required>
+                        <div class="invalid-feedback">
+                          Please provide a name.
+                        </div>
+                      </div>
+                      <div class="mb-3">
+                        <input type="email" name="email" class="form-control" id="emailEmail" placeholder="Email" required>
+                        <div class="invalid-feedback">
+                          Please provide an email.
+                        </div>
+                      </div>
+                      <div class="mb-3">
+                        <input type="tel" name="phone" class="form-control" id="emailPhone" placeholder="Phone" required>
+                        <div class="invalid-feedback">
+                          Please provide a phone.
+                        </div>
+                      </div>
+                      <input type="text" name="honeypot" class="form-control" id="emailHoneyPot">
+                      <div class="mb-3">
+                        <textarea class="form-control" name="message" id="emailMessage" placeholder="Message" rows="5"></textarea>
+                      </div>
+                      
+                    <button class="btn btn-primary" type="submit">Send</button>
+                  </form>
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
   <!-- FOOTER -->
   <footer class="">
       <div class="container">
@@ -378,6 +435,8 @@
     <script src= 
 "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="./public/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="./public/script/custom.js"></script>
       
   </body>
